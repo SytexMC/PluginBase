@@ -1,0 +1,13 @@
+[libraries]
+deps-authlib = { module = "com.mojang:authlib", version = "3.13.56" }
+deps-adventure-bukkit = { module = "net.kyori:adventure-platform-bukkit", version = "4.4.0" }
+deps-xseries = { module = "com.github.cryptomorin:XSeries", version = "13.3.3" }
+deps-experingmap = { module = "net.jodah:expiringmap", version = "0.5.11" }
+deps-mongo = { module = "org.mongodb:mongodb-driver-sync", version = "4.9.0" }
+deps-jedis = { module = "redis.clients:jedis", version = "6.0.0" }
+deps-commons-pool2 = { module = "org.apache.commons:commons-pool2", version = "2.12.1" }
+deps-hikaricp = { module = "com.zaxxer:HikariCP", version = "6.3.0" }
+deps-sqlstreams = { module = "me.lucko:sql-streams", version = "1.0.0" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version = "9.0.0-rc1" }
