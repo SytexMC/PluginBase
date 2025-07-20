@@ -23,4 +23,6 @@ dependencies {
     implementation(libs.deps.adventure.bukkit)
     implementation(libs.deps.xseries)
     implementation(libs.deps.experingmap)
+    compileOnly(libs.deps.mini)
+    compileOnly(libs.deps.papi)
 }
